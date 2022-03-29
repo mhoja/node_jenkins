@@ -1,0 +1,11 @@
+version: "3.7"
+
+services:
+  jenkins-hello:
+    image: jenkins-hello
+    # build:
+    #   context: .
+    ports:
+      - 3001:3001
+    # volumes:
+    #   - "./:/app"
